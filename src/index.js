@@ -56,7 +56,7 @@ function createCanvas(width,height) {
              ] 
 ***/
 
-module.exports = async function imageToCanvas(base,image=[],text=[],model=1){
+module.exports.default = async function imageToCanvas(base,image=[],text=[],model=1){
     //缩小的倍数
     let scale = model;
     try {
